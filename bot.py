@@ -154,7 +154,7 @@ def search_ebay(keyword):
 🔗 {url_item}
 """
 
-        print("ENVIANDO:", title_text, price_text)
+        print("Items trobats:", len(items))
         send_telegram(msg)
 
 # ---------------- LOOP ----------------
